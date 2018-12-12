@@ -1,11 +1,11 @@
 <?php
 
-for($z=0;$z<10;$z++){
+for($z=0;$z<1;$z++){
 $init = str_split("##...#......##......#.####.##.#..#..####.#.######.##..#.####...##....#.#.####.####.#..#.######.##...");
 $rules = file("input.txt", FILE_IGNORE_NEW_LINES);
 $current = $init;
 $nul_pos = 0;
-    for($i=0;$i<100+$z;$i++){
+    for($i=0;$i<20+$z;$i++){
        // echo $i . PHP_EOL;
         //echo $i .")b ".implode($init) .  PHP_EOL;
         $ok =1;
